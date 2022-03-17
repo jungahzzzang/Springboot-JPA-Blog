@@ -19,13 +19,13 @@
 	
 	<dependencies>
 		<!-- 추가 라이브러리 시작 -->
+		
 		<!-- 시큐리티 태그 라이브러리 -->
-		<!--  
 		<dependency>
 		  <groupId>org.springframework.security</groupId>
 		  <artifactId>spring-security-taglibs</artifactId>
 		</dependency>
-		-->
+		
 		
 		<!-- JSP 템플릿 엔진 -->
 		<dependency>
@@ -38,6 +38,15 @@
 		  <groupId>javax.servlet</groupId>
 		  <artifactId>jstl</artifactId>
 		</dependency>
+		
+		<!-- 자동 재시작 -->
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-devtools</artifactId>
+	        <scope>runtime</scope>
+	        <optional>true</optional>
+	    </dependency>
+
 		<!-- 추가 라이브러리 종료 -->
 		
 
@@ -46,12 +55,10 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
-		<!--  
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-		-->
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
